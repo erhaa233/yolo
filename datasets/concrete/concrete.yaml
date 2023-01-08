@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../train/images
+test: 
+
+nc: 2
+names: ['brick', 'gravel']
+
+roboflow:
+  workspace: congming-da-53uny
+  project: ada-lvgtm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/congming-da-53uny/ada-lvgtm/dataset/1
